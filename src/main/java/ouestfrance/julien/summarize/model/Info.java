@@ -1,8 +1,12 @@
 package ouestfrance.julien.summarize.model;
 
+import org.apache.commons.lang.builder.ToStringBuilder;
+import org.apache.commons.lang.builder.ToStringStyle;
+
 public class Info {
 
     private InfoBuild build;
+    private boolean statusUp;
 
     public Info() {
         super();
@@ -21,9 +25,18 @@ public class Info {
         this.build = build;
     }
 
+    public boolean isStatusUp() {
+        return statusUp;
+    }
+
+    public void setStatusUp(boolean statusUp) {
+        this.statusUp = statusUp;
+    }
+
     @Override
     public String toString() {
-        return "Data [build=" + build + "]";
+        return ToStringBuilder.reflectionToString(this, ToStringStyle.SHORT_PREFIX_STYLE);
     }
+
 
 }

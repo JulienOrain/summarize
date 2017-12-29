@@ -1,5 +1,8 @@
 package ouestfrance.julien.summarize.model;
 
+import org.apache.commons.lang.builder.ToStringBuilder;
+import org.apache.commons.lang.builder.ToStringStyle;
+
 public class InfoBuild {
 
     private String name;
@@ -70,7 +73,8 @@ public class InfoBuild {
 
     @Override
     public String toString() {
-        return "Data [name=" + name + ", artifact=" + artifact + ", version=" + version + "]";
+        return ToStringBuilder.reflectionToString(this, ToStringStyle.SHORT_PREFIX_STYLE);
     }
+
 
 }

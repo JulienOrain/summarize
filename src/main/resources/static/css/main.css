@@ -1,0 +1,10 @@
+.status-up {
+	color: green;
+}
+.status-down {
+	color: red;
+}
+
+.table td, .table th  {
+   text-align: center;   
+}
