@@ -1,4 +1,4 @@
-# summarize
+# summarize 
 
 Travis:
 [![Build Status](https://travis-ci.org/JulienOrain/summarize.svg?branch=master)](https://travis-ci.org/JulienOrain/summarize)
