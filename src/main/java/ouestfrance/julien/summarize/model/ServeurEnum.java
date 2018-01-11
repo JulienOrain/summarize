@@ -3,6 +3,12 @@ package ouestfrance.julien.summarize.model;
 public enum ServeurEnum {
 
     // ADV
+    AUT_DEV_01("AUT_DEV_01", EnvironmentEnum.DEV, ProjectEnum.AUT, "http://d1ccpvco01.ouest-france.fr:8080/ccpaut"), AUT_QUAL_01(
+            "AUT_QUAL_01", EnvironmentEnum.QUAL, ProjectEnum.AUT, "https://qualccpaut.ouest-france.fr/ccpaut"), AUT_INT_01("AUT_INT_01",
+                    EnvironmentEnum.INT, ProjectEnum.AUT, "https://intccpaut.ouest-france.fr/ccpaut"), AUT_PROD_01("AUT_PROD_01",
+                            EnvironmentEnum.PROD, ProjectEnum.AUT, "https://ccpaut.ouest-france.fr/ccpaut"),
+
+    // ADV
     ADV_DEV_02("ADV_DEV_02", EnvironmentEnum.DEV, ProjectEnum.ADV, "http://d1ccpadv02.ouest-france.fr:8080/ccpadv"), 
     ADV_QUAL_02("ADV_QUAL_02", EnvironmentEnum.QUAL, ProjectEnum.ADV, "http://q1ccpadv02.ouest-france.fr:8080/ccpadv"),
     ADV_INT_02("ADV_INT_02", EnvironmentEnum.INT, ProjectEnum.ADV, "http://i1ccpadv02.ouest-france.fr:8080/ccpadv"), 

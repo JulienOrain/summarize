@@ -3,7 +3,7 @@ package ouestfrance.julien.summarize.model;
 import org.apache.commons.lang.StringUtils;
 
 public enum ProjectEnum {
-    ADV("CCP-ADV"), BSI("CCP-BSI"), VCO("CCP-VCO");
+    AUT("CCP-AUT"), ADV("CCP-ADV"), BSI("CCP-BSI"), VCO("CCP-VCO");
 
     private final String name;
 
